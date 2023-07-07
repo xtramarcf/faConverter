@@ -1,5 +1,4 @@
-/src/main/resources/application-local-dev.yaml
-src/main/kotlin/com/example/converterkotlin/configuration/DataSourceConfig.kt
+/com/example/converterkotlin/configuration/DataSourceConfig.kt
 
 HELP.md
 .gradle

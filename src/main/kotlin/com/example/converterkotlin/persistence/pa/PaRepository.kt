@@ -1,4 +1,6 @@
 package com.example.converterkotlin.persistence.pa
 
-interface PaRepository {
+import org.springframework.data.jpa.repository.JpaRepository
+
+interface PaRepository: JpaRepository<Pa, Long> {
 }
