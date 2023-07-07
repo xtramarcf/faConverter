@@ -7,7 +7,6 @@ class ExportData(
     var gefundeneDatei: String,
 ) {
     var anzahlPlaene: Int = 0
-
     override fun toString(): String {
 
         return ("ElectricalDrawingExport [seriennummer= $serienNummer, rmnr= $rmnr , teilenummer=" +

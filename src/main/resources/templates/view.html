@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" xmlns:th="http://www.thymeleaf.org" data-bs-theme="dark">
+<html lang="de" xmlns:th="http://www.thymeleaf.org" data-bs-theme="dark" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Konvertierer</title>
@@ -8,6 +8,10 @@
     <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
-
+<div>
+    <form th:action="@{/convertToCircuitExcelFile}" method="post">
+        <input type="submit" class="btn btn-primary" value="Konvertieren"/>
+    </form>
+</div>
 </body>
 </html>
